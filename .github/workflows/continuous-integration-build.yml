@@ -47,3 +47,6 @@ jobs:
       - name: Build Complete Kotlin with Gradle
         working-directory: ./complete-kotlin
         run: ./gradlew build
+
+      - name: Make mvnw executable
+      run: chmod +x ./mvnw
